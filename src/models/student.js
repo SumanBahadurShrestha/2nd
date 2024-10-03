@@ -2,12 +2,6 @@ const mongoose = require('mongoose');
 //const validator = require('validator')
 
 const UserSchema = new mongoose.Schema({
-    // _id: {
-    //     type: mongoose.Schema.Types.ObjectId,
-    //     require: true,
-    //     auto: true
-    // },
-
     name: {
         type: String,
         require: true,
